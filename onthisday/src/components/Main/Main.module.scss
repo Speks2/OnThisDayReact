@@ -12,11 +12,12 @@ $boring-white: #F5F5F5;
 * {
     padding: 0;
     margin: 0;
-    box-sizing: none; 
-}
+    box-sizing: border-box; 
+} 
 
 body {
-  background: $lighter-color;
+    background-color: $darker;
+    color: $boring-white;
 }
 
 
