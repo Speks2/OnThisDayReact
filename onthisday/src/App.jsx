@@ -7,7 +7,11 @@ function App() {
 
   return (
     <>
+     <Header />
+     <Main />
+     <Footer />
      <h1>ON THIS DAY</h1>
+      
     </>
   )
 }
