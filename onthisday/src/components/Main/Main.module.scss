@@ -1,3 +1,37 @@
+@import url('https://fonts.google.com/specimen/Limelight?query=Limelight');
+@import url('https://fonts.google.com/specimen/Linden+Hill?query=Linden');
+
+$fat-milk: #FFE9BF;
+$caramel: #D29E62;
+$depression: #695E48; 
+$slight-depression: #C7BD8D;
+$dark:  #1F1F1F;
+$darker: #151515;
+$boring-white: #F5F5F5;
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: none; 
+}
+
 body {
-    background-color: rgb(213, 212, 212);
-}       
+  background: $lighter-color;
+}
+
+
+
+//Phone
+@media (max-width: 600px) {  
+   
+  }
+  
+ //Tablet/Ipad
+  @media (min-width: 600px) and (max-width: 900px) {  
+   
+  }
+  
+ //Tablet/iPhone Landscape view
+  @media (min-width: 900px) {  
+    
+  }
