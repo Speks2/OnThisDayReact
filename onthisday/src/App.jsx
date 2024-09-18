@@ -10,8 +10,6 @@ function App() {
      <Header />
      <Main />
      <Footer />
-     <h1>ON THIS DAY</h1>
-      
     </>
   )
 }
