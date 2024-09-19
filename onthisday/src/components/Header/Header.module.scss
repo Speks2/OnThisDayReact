@@ -11,7 +11,26 @@ header {
       object-fit: cover;
       top: 0;
       clip-path: polygon(10% 0%, 90% 0%, 100% 10%, 100% 100%, 0% 100%, 0% 10%); 
+  } 
+  div {
+    h1 {
+      font-size: 5rem;
+      color: V.$slight-depression;
+      font-family: 'Limelight';
+      margin-top: 2rem;
+    }
+  
+    p {
+      font-size: 1.5rem;
+      color: V.$slight-depression;
+      font-family: "Linden Hill";
+      max-width: 50%;
+      margin: 0 auto;
+      padding: 5%;
+      font-weight: lighter;
+    }
   }
+ 
 }
 
 
@@ -59,22 +78,7 @@ header {
     box-shadow: 0px 4px 20px 10px #151515; 
     
   
-    h1 {
-      font-size: 5rem;
-      color: V.$slight-depression;
-      font-family: "Limelight", sans-serif;
-      margin-top: 2rem;
-    }
-  
-    p {
-      font-size: 1.5rem;
-      color: V.$slight-depression;
-      font-family: "Linden Hill";
-      max-width: 50%;
-      margin: 0 auto;
-      padding: 5%;
-      font-weight: lighter;
-    }
+   
 
     // Circle styles 
   .circle {
