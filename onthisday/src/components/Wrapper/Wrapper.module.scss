@@ -1,5 +1,5 @@
-@import url('https://fonts.google.com/specimen/Limelight?query=Limelight');
-@import url('https://fonts.google.com/specimen/Linden+Hill?query=Linden');
+@import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Limelight&family=Linden+Hill:ital@0;1&display=swap');
 
 $fat-milk: #FFE9BF;
 $caramel: #D29E62;
@@ -17,6 +17,7 @@ $boring-white: #F5F5F5;
 
 body {
     background-color: $darker;
+    font-family: "Linden Hill", system-ui;
 }
 
 //Phone

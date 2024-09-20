@@ -1,6 +1,5 @@
 @use '../components//Wrapper/Wrapper.module.scss' as V;
-@import url('https://fonts.google.com/specimen/Limelight?query=Limelight');
-@import url('https://fonts.google.com/specimen/Linden+Hill?query=Linden');
+
 
 .Today {
     position: relative;
@@ -11,7 +10,8 @@
     margin-top: 12%;
     color: #FFFFFF;
     font-size: 1.5rem;
-
+    padding: 2rem;
+    list-style-type: none;
    h1 {
     color: V.$slight-depression;
    }

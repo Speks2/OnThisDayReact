@@ -1,11 +1,10 @@
 @use '../Wrapper/Wrapper.module.scss' as V;
-@import url('https://fonts.google.com/specimen/Limelight?query=Limelight');
-@import url('https://fonts.google.com/specimen/Linden+Hill?query=Linden');
 
 header {
   display: block;
   position: relative; 
   background-color: V.$depression;
+  font-family: "Limelight", system-ui;
   img {
       width: 100%;
       max-height:min-content;
