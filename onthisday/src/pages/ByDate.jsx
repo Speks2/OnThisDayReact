@@ -2,6 +2,8 @@ import React from 'react'
 
 export const ByDate = () => {
   return (
-    <div>ByDate</div>
+    <div>
+        <h1>By Date</h1>
+    </div>
   )
 }
