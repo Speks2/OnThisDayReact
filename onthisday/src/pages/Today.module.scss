@@ -13,7 +13,12 @@
     padding: 2rem;
     list-style-type: none;
     img {
-        filter: brightness(500%);
+        filter: brightness(400%);
+        &:hover {
+            cursor: pointer;
+            background-color: V.$depression;
+            border-radius: 2rem;
+        }
     }
    h1 {
     color: V.$slight-depression;
@@ -30,7 +35,7 @@
    
 
 }
-.dark-mode {
+.darkMode {
     background-color: V.$boring-white;
     color: rgb(0, 0, 0);
   }
