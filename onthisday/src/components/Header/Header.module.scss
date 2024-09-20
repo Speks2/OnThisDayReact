@@ -1,9 +1,10 @@
-@use '../Main/Main.module.scss' as V;
+@use '../Wrapper/Wrapper.module.scss' as V;
 @import url('https://fonts.google.com/specimen/Limelight?query=Limelight');
 @import url('https://fonts.google.com/specimen/Linden+Hill?query=Linden');
 
 header {
-  position: auto; 
+  display: block;
+  position: relative; 
   background-color: V.$depression;
   img {
       width: 100%;
@@ -65,7 +66,7 @@ header {
   //Rectangle med I hver hjørne cirkler og text ind i. 
   .TitleBox {
     position: absolute;
-    top: 118%;
+    top: 85%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 70%;
@@ -77,11 +78,10 @@ header {
     z-index: 2;
     box-shadow: 0px 4px 20px 10px #151515; 
     
-  
-   
 
     // Circle styles 
   .circle {
+    display: block;
     position: absolute;
     width: 1.5rem;
     height: 1.5rem;
