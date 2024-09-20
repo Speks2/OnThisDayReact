@@ -25,8 +25,8 @@ export function ByDate() {
 
   return (
     <div className={styles.Today}>
+         <img src="/src/assets/images/Light.svg" alt="Light" />
       <h1>By Date</h1>
-
       {error && <p>Error: {error}</p>}
 
       <ul>
@@ -36,6 +36,7 @@ export function ByDate() {
           </li>
         ))}
       </ul>
+      <img src="/src/assets/images/Upward Arrow.svg" alt="ArrowUp" />
     </div>
   );
 }

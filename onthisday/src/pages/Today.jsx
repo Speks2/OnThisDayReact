@@ -23,11 +23,18 @@ export function Today() {
       });
   }, []);
 
+  {
+    function DarkTheme() {
+        var element = document.body;
+        element.classList.toggle("dark-mode");
+     }
+  }
   return (
     <div className={styles.Today}>
+        <img src="/src/assets/images/Light.svg" alt="Light" />
       <h1>Today in History - September 20</h1>
-
-      {error && <p>Error: {error}</p>}
+      <button onclick="myFunction()">Toggle dark mode</button>
+      {error && <p>Oops! {error}</p>}
 
       <ul>
         {events.map((event, index) => (
@@ -36,6 +43,7 @@ export function Today() {
           </li>
         ))}
       </ul>
+      <img src="/src/assets/images/Upward Arrow.svg" alt="ArrowUp" />
     </div>
   );
 }
