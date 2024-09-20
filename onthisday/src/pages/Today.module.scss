@@ -1,7 +1,18 @@
+@use '../components//Wrapper/Wrapper.module.scss' as V;
+@import url('https://fonts.google.com/specimen/Limelight?query=Limelight');
+@import url('https://fonts.google.com/specimen/Linden+Hill?query=Linden');
+
 .Today {
+    position: relative;
+    display: block;
+    top: 0;
+    bottom: 0;
+    padding: 0;
+    margin-top: 12%;
+    color: orange;
+   
 
    h1 {
-
     color: white;
    }
 
