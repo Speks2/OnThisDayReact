@@ -1,10 +1,11 @@
 import React from 'react'
+import styles from '../pages/NotFound.module.scss';
 
 export const NotFound = () => {
   return (
-    <div>
-        <h1>
-            Page not found!!! error!!!
+    <div className={styles.NotFound}>
+        <h1 >
+            Page not found!!! error
         </h1>
     </div>
   )

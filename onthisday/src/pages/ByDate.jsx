@@ -1,8 +1,9 @@
 import React from 'react'
+import styles from '../pages/ByDate.module.scss';
 
 export const ByDate = () => {
   return (
-    <div>
+    <div className={styles.ByDate}>
         <h1>By Date</h1>
     </div>
   )
