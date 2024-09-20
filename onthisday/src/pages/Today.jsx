@@ -18,21 +18,22 @@ export function Today() {
         setEvents(data.events);
       })
       .catch((error) => {
-        setError(error.toString());
+        setError(error.toString()); //error checking 
       });
   }, []);
 
   const toggleDarkMode = () => {
     setIsDarkMode(prevMode => !prevMode);
-    document.body.classList.toggle('dark-mode');
+    document.body.classList.toggle('dark-mode'); //skrift tema
   };
 
   const scrollToTop = () => {
-    window.scrollTo({
+    window.scrollTo({      //scroll I toppen
       top: 0,
       behavior: 'smooth'
     });
   };
+  
 //HTML
   return (
     <div className={`${styles.Today} ${isDarkMode ? styles.darkMode : ''}`}>
@@ -47,7 +48,7 @@ export function Today() {
       <ul>
         {events.map((event, index) => (
           <li key={index}>
-            <strong>{event.year}</strong>: {event.text}
+            <strong>{event.year}</strong>: {event.text} {/* tag data fra array med map som list items */}
           </li>
         ))}
       </ul>
