@@ -33,7 +33,7 @@ export function Today() {
       behavior: 'smooth'
     });
   };
-  
+
 //HTML
   return (
     <div className={`${styles.Today} ${isDarkMode ? styles.darkMode : ''}`}>
@@ -48,7 +48,7 @@ export function Today() {
       <ul>
         {events.map((event, index) => (
           <li key={index}>
-            <strong>{event.year}</strong>: {event.text} {/* tag data fra array med map som list items */}
+            <strong>{event.year}</strong>: {event.text} {/* tag data fra array med map som list items og bold styling */}
           </li>
         ))}
       </ul>
